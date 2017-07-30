@@ -63,3 +63,33 @@ header{
 		}
 	}
 }
+.three{
+	background-color:#2E2E2E;
+	padding: 20px;
+	color: #F3E2A9;
+
+	.about{
+		text-align: right;
+		padding: 30px;
+		img{
+			float: left;
+			border-radius: $border;
+		}
+		li{
+			margin: 20px 0;
+			margin-left: 50%;
+		}
+	}
+	.program{
+		text-align: left;
+		padding: 30px;
+		img{
+			float: right;
+			border-radius: $border;
+		}
+		li{
+			margin: 20px 0;
+			margin-right: 50%;
+		}
+	}
+}
