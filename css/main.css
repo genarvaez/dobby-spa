@@ -17,8 +17,12 @@ header {
 .services {
   background-color: #F3E2A9;
   border-top: 2px solid black;
-  padding: 30px;
-  margin-bottom: 10px; }
+  margin-bottom: 0;
+  padding-bottom: 30px; }
+  .services a {
+    margin: 40px;
+    color: black;
+    background-color: #F7BE81; }
   .services img {
     position: relative;
     bottom: 60px;
@@ -26,8 +30,19 @@ header {
   .services .text {
     text-align: justify;
     padding: 10px; }
-  .services a {
-    color: black;
-    background-color: #F7BE81; }
+
+.two {
+  background-color: #F2F2F2; }
+  .two .description {
+    padding: 50px 10px; }
+    .two .description h4 {
+      color: #B40404;
+      margin: 10px 0; }
+    .two .description img {
+      border-radius: 10px; }
+    .two .description ul li {
+      margin: 10px 0; }
+      .two .description ul li img {
+        width: 20px; }
 
 /*# sourceMappingURL=main.css.map */
