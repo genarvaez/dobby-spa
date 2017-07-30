@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: #2A0A0A;
+	.nav-wrapper{
+		margin-left: 30%;
+	}
+}
+.carousel-item{
+	img{
+		width: 50%;
+	}
+}
+header{
+	background-color: #F5F6CE;
+}
+.services{
+	
+	background-color: #F3E2A9;
+	border-top: 2px solid black;
+	padding: 30px;
+	margin-bottom: 10px;
+	img{
+		position: relative;
+		bottom: 60px;
+		border: 10px solid #F7BE81;
+	}
+	.text{
+		text-align: justify;
+		padding: 10px;
+	}
+	a{
+		color: black;
+		background-color: #F7BE81;
+	}
+}
