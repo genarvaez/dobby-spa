@@ -15,9 +15,6 @@ nav{
 		width: 50%;
 	}
 }
-header{
-	background-color: #F5F6CE;
-}
 
 
 .services{	
@@ -43,8 +40,10 @@ header{
 }
 .two{
 	background-color: #F2F2F2;
+
 	.description{
 		padding: 50px 10px;
+		margin-bottom: 0;
 		h4{
 			color: #B40404;
 			margin: $margin;
@@ -67,6 +66,10 @@ header{
 	background-color:#2E2E2E;
 	padding: 20px;
 	color: #F3E2A9;
+	border: 2px solid #F3E2A9;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 0;
 
 	.about{
 		text-align: right;
