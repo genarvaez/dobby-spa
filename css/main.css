@@ -1,23 +1,76 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - sass/main.scss
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-Backtrace:
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `read'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin.rb:109:in `method_missing'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - sass/main.scss"; }
+nav {
+  background-color: #2A0A0A; }
+  nav .nav-wrapper {
+    margin-left: 30%; }
+
+.carousel-item img {
+  width: 50%; }
+
+.services {
+  background-color: #F3E2A9;
+  border-top: 2px solid black;
+  margin-bottom: 0;
+  padding-bottom: 30px; }
+  .services a {
+    margin: 40px;
+    color: black;
+    background-color: #F7BE81; }
+  .services img {
+    position: relative;
+    bottom: 60px;
+    border: 10px solid #F7BE81; }
+  .services .text {
+    text-align: justify;
+    padding: 10px; }
+
+.two {
+  background-color: #F2F2F2; }
+  .two .description {
+    padding: 50px 10px;
+    margin-bottom: 0; }
+    .two .description h4 {
+      color: #B40404;
+      margin: 10px 0; }
+    .two .description img {
+      border-radius: 10px; }
+    .two .description ul li {
+      margin: 10px 0; }
+      .two .description ul li img {
+        width: 20px; }
+
+.three {
+  background-color: #442D2E;
+  padding: 20px;
+  color: #F3E2A9;
+  border: 2px solid #F3E2A9;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 0; }
+  .three .about {
+    text-align: right;
+    padding: 30px; }
+    .three .about img {
+      float: left;
+      border-radius: 10px; }
+    .three .about li {
+      margin: 20px 0;
+      margin-left: 50%; }
+  .three .program {
+    text-align: left;
+    padding: 30px; }
+    .three .program img {
+      float: right;
+      border-radius: 10px; }
+    .three .program li {
+      margin: 20px 0;
+      margin-right: 50%; }
+
+footer {
+  background-color: #241818; }
+
+/*# sourceMappingURL=main.css.map */
